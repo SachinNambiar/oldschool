@@ -98,6 +98,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1-DoesntWork.aspx" />
+    <Content Include="2-MostBasic.aspx" />
+    <Content Include="3-All Form Controls.aspx" />
     <Content Include="About.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -156,6 +159,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-DoesntWork.aspx.cs">
+      <DependentUpon>1-DoesntWork.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2-MostBasic.aspx.cs">
+      <DependentUpon>2-MostBasic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3-All Form Controls.aspx.cs">
+      <DependentUpon>3-All Form Controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="3-All Form Controls.aspx.designer.cs">
+      <DependentUpon>3-All Form Controls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
